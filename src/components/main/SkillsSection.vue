@@ -17,28 +17,28 @@
                             <span class="skill">HTML <i class="val">100%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                    aria-valuemax="100" aria-label="HTML"></div>
                             </div>
                         </div>
                         <div class="progress">
                             <span class="skill">CSS <i class="val">90%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                    aria-valuemax="100" aria-label="CSS"></div>
                             </div>
                         </div>
                         <div class="progress">
                             <span class="skill">JavaScript <i class="val">75%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                    aria-valuemax="100" aria-label="Javascript"></div>
                             </div>
                         </div>
                         <div class="progress">
                             <span class="skill">Photoshop <i class="val">55%</i></span>
                             <div class="progress-bar-wrap">
                                 <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0"
-                                    aria-valuemax="100"></div>
+                                    aria-valuemax="100" aria-label="Photoshop"></div>
                             </div>
                         </div>
                     </div>

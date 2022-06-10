@@ -9,7 +9,7 @@
                         mollit anim id est laborum.</p>
                 </div>
                 <div class="col-lg-3 cta-btn-container text-center">
-                    <a class="cta-btn align-middle" href="#">Call To Action</a>
+                    <a class="cta-btn align-middle" href="#" aria-label="Call to Action">Call To Action</a>
                 </div>
             </div>
         </div>
