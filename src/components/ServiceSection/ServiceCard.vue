@@ -1,6 +1,6 @@
 <template>
-  <div v-for="(item, index) in services" :key="index" class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
-    <div class="icon-box">
+  <div v-for="(item, index) in services" :key="index" class="col-12 mt-3 mt-sm-0 col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+    <div class="icon-box" style="width: 100%;">
       <div class="icon"><i :class="`bx ${item.icon}`"></i></div>
       <h4><a href="#">{{ item.title }}</a></h4>
       <p>{{ item.description }}</p>
