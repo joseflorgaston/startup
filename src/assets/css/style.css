@@ -334,8 +334,8 @@ h1, h2, h3, h4, h5, h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 80vh;
-  background: #37517e;
+  height: 100vh;
+  background: #162843;
 }
 #hero .container {
   padding-top: 72px;
@@ -1415,7 +1415,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   font-size: 14px;
-  background: #37517e;
+  background: #162843;
 }
 #footer .footer-newsletter {
   padding: 50px 0;

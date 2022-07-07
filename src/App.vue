@@ -1,9 +1,9 @@
 <template>
   <div>
-    <Header></Header>
-    <HeroSection> </HeroSection>
-    <MainVue></MainVue>
-    <FooterVue></FooterVue>
+    <Header />
+    <HeroSection />
+    <MainVue />
+    <FooterVue />
   </div>
 </template>
 

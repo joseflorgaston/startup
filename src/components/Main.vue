@@ -1,16 +1,16 @@
 <template>
   <main id="main">
-      <ClientSection> </ClientSection>
-      <AboutUsSection> </AboutUsSection>
-      <WhyUsSection> </WhyUsSection>
-      <SkillsSectionVue> </SkillsSectionVue>
-      <ServicesSectionVue></ServicesSectionVue>
-      <CTASectionVue> </CTASectionVue>
-      <PortfolioSectionVue></PortfolioSectionVue>
-      <TeamSection></TeamSection>
-      <PricingSectionVue></PricingSectionVue>
-      <QuestionsSectionVue></QuestionsSectionVue>
-      <ContactSectionVue></ContactSectionVue>
+      <ClientSection />
+      <AboutUsSection />
+<!--      <WhyUsSection />-->
+<!--      <SkillsSectionVue />-->
+      <ServicesSectionVue />
+<!--      <CTASectionVue />-->
+<!--      <PortfolioSectionVue />-->
+      <TeamSection />
+<!--      <PricingSectionVue />-->
+      <QuestionsSectionVue />
+      <ContactSectionVue />
   </main>
 </template>
 
