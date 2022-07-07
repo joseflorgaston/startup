@@ -2,7 +2,7 @@
   <header id="header" class="fixed-top header-scrolled">
     <div class="container d-flex align-items-center">
       <h1 class="logo me-auto">
-        <a href="index.html"><img width="150" height="40" src="src/assets/logo-black.svg" alt="AM Solution"></a>
+        <a href="index.html"><img width="150" height="40" src="/src/assets/logo-black.svg" alt="AM Solution"></a>
       </h1>
 
 <!--      <a href="index.html"><img width="150" height="50" src="src/assets/logo-white.svg" alt=""></a>-->

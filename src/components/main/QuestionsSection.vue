@@ -3,7 +3,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Frequently Asked Questions</h2>
+                <h2>Preguntas Frecuentes</h2>
                 <p>Respondemos algunas de las dudas TI</p>
             </div>
 

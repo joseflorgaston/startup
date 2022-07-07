@@ -17,14 +17,19 @@ const services = [
     description: 'Desarrollamos su Ecommerce a medida.'
   },
   {
-    title: 'Development and Design Web',
+    title: 'Web Development',
     icon: 'bx-code-alt',
-    description: 'Disenhamos y Desarrollamos tu página web para obtener un mayor alcance.'
+    description: 'Diseñamos y desarrollamos tu página web para obtener un mayor alcance.'
+  },
+  {
+    title: 'Multiplatform apps',
+    icon: 'bx-devices',
+    description: 'Diseñamos y desarrollamos tus aplicaciones multiplataforma para IOS y Android.'
   },
   {
     title: 'SEO',
     icon: 'bx-tachometer',
-    description: 'Ejecutamos estrategias y técnicas de optimización que se hacen en una página web para que aparezca orgánicamente en buscadores de Internet.'
+    description: 'Ejecutamos estrategias y técnicas de optimización para mejorar el posicionamiento web en distintos buscadores de Internet.'
   }
 ]
 </script>

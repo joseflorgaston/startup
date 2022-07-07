@@ -7,10 +7,10 @@
         <span>{{ item.role }}</span>
         <p>{{ item.phrase }}</p>
         <div class="social">
-          <a :href="`${item.socials.twitter}`" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
-          <a :href="`${item.socials.github}`" aria-label="Github"><i class="ri-github-fill"></i></a>
-          <a :href="`${item.socials.instagram}`" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-          <a :href="`${item.socials.linkedin}`" aria-label="LinkedIn"> <i class="ri-linkedin-box-fill"></i></a>
+          <a :href="`${item.socials['twitter']}`" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
+          <a :href="`${item.socials['github']}`" aria-label="Github"><i class="ri-github-fill"></i></a>
+          <a :href="`${item.socials['instagram']}`" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+          <a :href="`${item.socials['linkedin']}`" aria-label="LinkedIn"> <i class="ri-linkedin-box-fill"></i></a>
         </div>
       </div>
     </div>

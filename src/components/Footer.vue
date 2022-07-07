@@ -21,7 +21,7 @@
                 <div class="row">
 
                     <div class="col-lg-3 col-md-6 footer-contact">
-                      <img width="150" height="40" src="src/assets/logo-white.svg" alt="AM Solution">
+                      <img width="150" height="40" src="/src/assets/logo-white.svg" alt="AM Solution">
                       <p class="pt-2">
                           Asuncion, Paraguay
                         <br><br>
@@ -46,6 +46,7 @@
                         <ul>
                             <li><i class="bx bx-chevron-right"></i> <a href="#" aria-label="Diseno web">Web Design</a></li>
                             <li><i class="bx bx-chevron-right"></i> <a href="#" aria-label="Desarrollo web">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#" aria-label="Desarrollo movil">Desarrollo móvil</a></li>
                         </ul>
                     </div>
 
