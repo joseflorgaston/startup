@@ -6,7 +6,7 @@
         <h4>{{ item.name }}</h4>
         <span>{{ item.role }}</span>
         <p>{{ item.phrase }}</p>
-        <div class="social">
+        <div class="d-flex justify-content-end social">
           <a v-if="item.socials[0]['instagram']" :href="`${item.socials[0]['instagram']}`" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
           <a v-if="item.socials[0]['github']" :href="`${item.socials[0]['github']}`" aria-label="Github"><i class="ri-github-fill"></i> </a>
           <a v-if="item.socials[0]['linkedin']" :href="`${item.socials[0]['linkedin']}`" aria-label="LinkedIn"> <i class="ri-linkedin-box-fill"></i></a>
@@ -73,7 +73,7 @@ const items = [
   {
     name: 'Renato Jara',
     role: 'Co-Founder',
-    phrase: '"I could either watch it happen, or be part of it" - Albert Einstein',
+    phrase: '"I could either watch it happen, or be part of it" - Elon Musk',
     image: '/src/assets/img/team/renato.jfif',
     socials: [
       {
