@@ -23,9 +23,9 @@
                     <div class="col-lg-3 col-md-6 footer-contact">
                       <img width="150" height="40" src="/src/assets/logo-white.svg" alt="AM Solution">
                       <p class="pt-2">
-                          Asuncion, Paraguay
+                          Asunción, Paraguay
                         <br><br>
-                          <strong>Phone:</strong> +595 982 763 732<br>
+                          <strong>Telefono:</strong> +595 982 763 732<br>
                           <strong>Email:</strong> am.solutions.py@gmail.com<br>
                       </p>
                     </div>
@@ -44,15 +44,16 @@
                     <div class="col-lg-3 col-md-6 footer-links">
                         <h4>Nuestros servicios</h4>
                         <ul>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#" aria-label="Diseno web">Web Design</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#" aria-label="Desarrollo web">Web Development</a></li>
-                            <li><i class="bx bx-chevron-right"></i> <a href="#" aria-label="Desarrollo movil">Desarrollo móvil</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#services" aria-label="Diseno web">Web Design</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#services" aria-label="Desarrollo web">Web Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#services" aria-label="Desarrollo movil">Mobile Development</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#services" aria-label="SEO">SEO</a></li>
                         </ul>
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-links">
-                        <h4>Nuestras redes sociales</h4>
-                        <p>Seguinos, estamos en: </p>
+                        <h4>Redes sociales</h4>
+                        <p>Seguinos en: </p>
                         <div class="social-links mt-3">
                             <a href="#" class="twitter" aria-label="Twitter"><i class="bx bxl-twitter"></i></a>
                             <a href="#" class="instagram" aria-label="Instagram"><i class="bx bxl-instagram"></i></a>
@@ -69,7 +70,7 @@
                 &copy; Copyright <strong><span>AM Solutions</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
-                Designed by <a href="https://bootstrapmade.com/" aria-label="BootstrapMade">AM Solutions</a>
+                Designed by <a href="" aria-label="BootstrapMade">AM Solutions</a>
             </div>
         </div>
     </footer>

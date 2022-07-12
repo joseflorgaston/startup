@@ -3,7 +3,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Contact</h2>
+                <h2>Contacto</h2>
                 <p></p>
             </div>
 
@@ -13,7 +13,7 @@
                     <div class="info">
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
+                            <h4>Ubicación:</h4>
                             <p>Asunción, Paraguay</p>
                         </div>
 
@@ -26,7 +26,7 @@
                         <div class="phone">
                             <i class="bi bi-phone"></i>
                             <h4>Contacto:</h4>
-                            <p>+595 982 763 732s</p>
+                            <p>+595 982 763 732</p>
                         </div>
                         <iframe
                             src="https://maps.google.com/maps?q=Asuncion,%20paseo%20galeria&t=&z=15&ie=UTF8&iwloc=&output=embed"
@@ -39,28 +39,28 @@
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
+                                <label for="name">Nombre</label>
                                 <input type="text" name="name" class="form-control" id="name" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="email">Your Email</label>
+                                <label for="email">Email</label>
                                 <input type="email" class="form-control" name="email" id="email" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="subject">Subject</label>
+                            <label for="subject">Asunto</label>
                             <input type="text" class="form-control" name="subject" id="subject" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message">Mensaje</label>
                             <textarea class="form-control" name="message" rows="10" required></textarea>
                         </div>
                         <div class="my-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">Cargando</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">Su mensaje ha sido enviado. Gracias por comunicarse con nosotros!</div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center"><button type="submit">Enviar mensaje</button></div>
                     </form>
                 </div>
 

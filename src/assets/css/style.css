@@ -511,7 +511,6 @@ section {
   filter: grayscale(100);
 }
 .clients img:hover {
-  filter: none;
   transform: scale(1.1);
 }
 @media (max-width: 768px) {
