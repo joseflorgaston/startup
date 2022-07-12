@@ -6,11 +6,10 @@
         <h4>{{ item.name }}</h4>
         <span>{{ item.role }}</span>
         <p>{{ item.phrase }}</p>
-        <div class="social">
-          <a :href="`${item.socials.twitter}`" aria-label="Twitter"><i class="ri-twitter-fill"></i></a>
-          <a :href="`${item.socials.github}`" aria-label="Github"><i class="ri-github-fill"></i></a>
-          <a :href="`${item.socials.instagram}`" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-          <a :href="`${item.socials.linkedin}`" aria-label="LinkedIn"> <i class="ri-linkedin-box-fill"></i></a>
+        <div class="d-flex justify-content-end social">
+          <a v-if="item.socials[0]['instagram']" :href="`${item.socials[0]['instagram']}`" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
+          <a v-if="item.socials[0]['github']" :href="`${item.socials[0]['github']}`" aria-label="Github"><i class="ri-github-fill"></i> </a>
+          <a v-if="item.socials[0]['linkedin']" :href="`${item.socials[0]['linkedin']}`" aria-label="LinkedIn"> <i class="ri-linkedin-box-fill"></i></a>
         </div>
       </div>
     </div>
@@ -22,13 +21,12 @@ const items = [
   {
     name: 'Mauricio Acosta',
     role: 'CEO',
-    phrase: '"Aprender a programar no tiene más que ver con el diseño de software interactivo de aprender a tocar el tipo tiene que ver con la escritura de la poesía"',
+    phrase: '"Innovation distinguishes between a leader and a follower" - Steve Jobs',
     image: '/src/assets/img/team/mauri.jpg',
     socials: [
       {
-        twitter: '',
-        github: '',
         instagram: 'https://www.instagram.com/macosta.19/',
+        github: null,
         linkedin: 'https://www.linkedin.com/in/mauricio-sebastian-acosta-rojas-561921226/'
       }
     ]
@@ -36,14 +34,13 @@ const items = [
   {
     name: 'Jorge Santiago Penayo',
     role: 'CTO',
-    phrase: '"Hablar es barato. Enséñame el código" - Linus Torvalds',
+    phrase: '"Talk is cheap. Show me the code" - Linus Torvalds',
     image: '/src/assets/img/team/santi.jfif',
     socials: [
       {
-        twitter: '',
-        github: '',
-        instagram: 'https://www.instagram.com/macosta.19/',
-        linkedin: 'https://www.linkedin.com/in/mauricio-sebastian-acosta-rojas-561921226/'
+        instagram: null,
+        github: 'https://github.com/jorgestg',
+        linkedin: 'https://www.linkedin.com/in/jorgestg/'
       }
     ]
   },
@@ -54,38 +51,35 @@ const items = [
     image: '/src/assets/img/team/marcos.jfif',
     socials: [
       {
-        twitter: '',
-        github: '',
-        instagram: 'https://www.instagram.com/macosta.19/',
-        linkedin: 'https://www.linkedin.com/in/mauricio-sebastian-acosta-rojas-561921226/'
+        instagram: 'https://www.instagram.com/_escmarcos/',
+        github: 'https://github.com/MarcosEscobarR',
+        linkedin: 'https://www.linkedin.com/in/marcos-escobar-3a86a41a0/'
       }
     ]
   },
   {
     name: 'Jose Flor',
     role: 'Co-Founder',
-    phrase: '"La creatividad es la inteligencia divirtiéndose" - Albert Einstein',
+    phrase: '"Creativity is intelligence having fun" - Albert Einstein',
     image: '/src/assets/img/team/jose.jfif',
     socials: [
       {
-        twitter: '',
-        github: '',
-        instagram: 'https://www.instagram.com/macosta.19/',
-        linkedin: 'https://www.linkedin.com/in/mauricio-sebastian-acosta-rojas-561921226/'
+        instagram: 'https://www.instagram.com/joseflorgaston/',
+        github: 'https://github.com/joseflorgaston',
+        linkedin: 'https://www.linkedin.com/in/joseflorgaston/'
       }
     ]
   },
   {
     name: 'Renato Jara',
     role: 'Co-Founder',
-    phrase: '"La creatividad es la inteligencia divirtiéndose" - Albert Einstein',
+    phrase: '"I could either watch it happen, or be part of it" - Elon Musk',
     image: '/src/assets/img/team/renato.jfif',
     socials: [
       {
-        twitter: '',
-        github: '',
-        instagram: 'https://www.instagram.com/macosta.19/',
-        linkedin: 'https://www.linkedin.com/in/mauricio-sebastian-acosta-rojas-561921226/'
+        instagram: 'https://www.instagram.com/renato_jn/',
+        github: null,
+        linkedin: 'https://www.linkedin.com/in/renatojara/'
       }
     ]
   },
@@ -96,16 +90,13 @@ const items = [
     image: '/src/assets/img/team/josias.jfif',
     socials: [
       {
-        twitter: '',
-        github: '',
-        instagram: 'https://www.instagram.com/macosta.19/',
-        linkedin: 'https://www.linkedin.com/in/mauricio-sebastian-acosta-rojas-561921226/'
+        github: 'https://github.com/jdnoguera',
+        instagram: 'https://www.instagram.com/josiasnoguera.s/',
+        linkedin: 'https://www.linkedin.com/in/josiasnoguera/'
       }
     ]
   },
 ]
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>

@@ -21,7 +21,7 @@
             justify-content-center
           "
         >
-          <img src="/src/assets/img/clients/client-2.png" class="img-fluid" alt="" />
+          <img src="/src/assets/img/clients/client-2.png" class="img-fluid img-normal" alt="" />
         </div>
       </div>
     </div>
@@ -34,5 +34,8 @@
 <style scoped>
 .img-invert {
   filter: invert(1);
+}
+.img-normal:hover {
+  filter: none;
 }
 </style>

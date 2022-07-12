@@ -3,48 +3,43 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Frequently Asked Questions</h2>
-                <p>Respondemos algunas de las dudas TI</p>
+                <h2>Preguntas Frecuentes</h2>
+                <p>Respondemos algunas de las principales dudas</p>
             </div>
 
             <div class="faq-list">
                 <ul>
                     <li data-aos="fade-up" data-aos-delay="100">
                         <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse"
-                            data-bs-target="#faq-list-1">¿Por qué no usar WordPress para un ecommerce? <i
+                            data-bs-target="#faq-list-1">¿Cuáles son las tecnologías que usamos? <i
                                 class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                             <p>
-                              Requiere de un proceso de instalación y configuración (y a veces, de programación adicional)
-                              de temas y plugins. No tan personalizable. WordPress pierde frente a cualquier buen sistema de e-commerce hecho a medida.
+                              Manejamos un amplio stack tecnologico: SolidJS, VueJS, ReactJS, Flutter, NodeJS, .NET Core, TailwindCSS, etc.
                             </p>
                         </div>
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="200">
                         <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                            data-bs-target="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc?
+                            data-bs-target="#faq-list-2" class="collapsed">¿Cómo realizamos el presupuesto?
                             <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec
-                                pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus
-                                turpis massa tincidunt dui.
+                              Realizamos un relevamiento de los datos, de acuerdo a ello evaluamos la mejor tecnología para
+                              llevar a cabo el desarrollo, teniendo en cuenta la escalabilidad del proyecto en cuestión.
                             </p>
                         </div>
                     </li>
 
                     <li data-aos="fade-up" data-aos-delay="300">
                         <i class="bx bx-help-circle icon-help"></i> <a data-bs-toggle="collapse"
-                            data-bs-target="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit?
+                            data-bs-target="#faq-list-3" class="collapsed">¿Cuál es nuestra metodología de trabajo?
                             <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum
-                                tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna
-                                molestie at elementum eu facilisis sed odio morbi quis
+                              Planteamos al cliente una metodología de entregables por etapas.
+                              La primera etapa consiste en un MVP (Minimum Viable Product, o en castellano el Producto Mínimo Viable). Posteriormente avanzamos con las demás etapas.
                             </p>
                         </div>
                     </li>

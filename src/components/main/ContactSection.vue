@@ -3,7 +3,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>Contact</h2>
+                <h2>Contacto</h2>
                 <p></p>
             </div>
 
@@ -13,24 +13,23 @@
                     <div class="info">
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
-                            <h4>Location:</h4>
-                            <p>A108 Adam Street, New York, NY 535022</p>
+                            <h4>Ubicación:</h4>
+                            <p>Asunción, Paraguay</p>
                         </div>
 
                         <div class="email">
                             <i class="bi bi-envelope"></i>
                             <h4>Email:</h4>
-                            <p>info@example.com</p>
+                            <p>am.solutions.py@gmail.com</p>
                         </div>
 
                         <div class="phone">
                             <i class="bi bi-phone"></i>
-                            <h4>Call:</h4>
-                            <p>+1 5589 55488 55s</p>
+                            <h4>Contacto:</h4>
+                            <p>+595 982 763 732</p>
                         </div>
-
                         <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                            src="https://maps.google.com/maps?q=Asuncion,%20paseo%20galeria&t=&z=15&ie=UTF8&iwloc=&output=embed"
                             frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen title="IFrame"></iframe>
                     </div>
 
@@ -40,28 +39,28 @@
                     <form action="forms/contact.php" method="post" role="form" class="php-email-form">
                         <div class="row">
                             <div class="form-group col-md-6">
-                                <label for="name">Your Name</label>
+                                <label for="name">Nombre</label>
                                 <input type="text" name="name" class="form-control" id="name" required>
                             </div>
                             <div class="form-group col-md-6">
-                                <label for="email">Your Email</label>
+                                <label for="email">Email</label>
                                 <input type="email" class="form-control" name="email" id="email" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <label for="subject">Subject</label>
+                            <label for="subject">Asunto</label>
                             <input type="text" class="form-control" name="subject" id="subject" required>
                         </div>
                         <div class="form-group">
-                            <label for="message">Message</label>
+                            <label for="message">Mensaje</label>
                             <textarea class="form-control" name="message" rows="10" required></textarea>
                         </div>
                         <div class="my-3">
-                            <div class="loading">Loading</div>
+                            <div class="loading">Cargando</div>
                             <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                            <div class="sent-message">Su mensaje ha sido enviado. Gracias por comunicarse con nosotros!</div>
                         </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
+                        <div class="text-center"><button type="submit">Enviar mensaje</button></div>
                     </form>
                 </div>
 
