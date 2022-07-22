@@ -37,10 +37,8 @@
               <li><a href="#" aria-label="Inicio">Drop Down 4</a></li>
             </ul>
           </li> -->
+          <li><a class="nav-link scrollto" href="#faq" aria-label="FAQ">FAQ</a></li>
           <li><a class="nav-link scrollto" href="#contact" aria-label="Contacto">Contactanos</a></li>
-<!--          <li>
-            <a class="getstarted scrollto" href="#about" aria-label="Sobre nosotros">Empezar</a>
-          </li>-->
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav>

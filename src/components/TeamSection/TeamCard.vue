@@ -7,9 +7,9 @@
         <span>{{ item.role }}</span>
         <p>{{ item.phrase }}</p>
         <div class="d-flex justify-content-end social">
-          <a v-if="item.socials[0]['instagram']" :href="`${item.socials[0]['instagram']}`" aria-label="Instagram"><i class="ri-instagram-fill"></i></a>
-          <a v-if="item.socials[0]['github']" :href="`${item.socials[0]['github']}`" aria-label="Github"><i class="ri-github-fill"></i> </a>
-          <a v-if="item.socials[0]['linkedin']" :href="`${item.socials[0]['linkedin']}`" aria-label="LinkedIn"> <i class="ri-linkedin-box-fill"></i></a>
+          <a v-if="item.socials[0]['instagram']" :href="`${item.socials[0]['instagram']}`" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-fill"></i></a>
+          <a v-if="item.socials[0]['github']" :href="`${item.socials[0]['github']}`" aria-label="Github" target="_blank" rel="noopener noreferrer"><i class="ri-github-fill"></i> </a>
+          <a v-if="item.socials[0]['linkedin']" :href="`${item.socials[0]['linkedin']}`" aria-label="LinkedIn" target="_blank" rel="noopener noreferrer"> <i class="ri-linkedin-box-fill"></i></a>
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@ const items = [
     socials: [
       {
         instagram: 'https://www.instagram.com/macosta.19/',
-        github: null,
+        github: 'https://github.com/mauricioacosta3366999',
         linkedin: 'https://www.linkedin.com/in/mauricio-sebastian-acosta-rojas-561921226/'
       }
     ]
@@ -78,7 +78,7 @@ const items = [
     socials: [
       {
         instagram: 'https://www.instagram.com/renato_jn/',
-        github: null,
+        github: 'https://github.com/renatojara',
         linkedin: 'https://www.linkedin.com/in/renatojara/'
       }
     ]

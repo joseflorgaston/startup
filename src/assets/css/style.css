@@ -954,6 +954,7 @@ section {
   border-radius: 5px;
   background: #fff;
   transition: 0.5s;
+  min-height: 250px;
 }
 .team .member .pic {
   overflow: hidden;
