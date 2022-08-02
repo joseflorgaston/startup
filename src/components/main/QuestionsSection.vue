@@ -14,8 +14,10 @@
                             data-bs-target="#faq-list-1">¿Cuáles son las tecnologías que usamos? <i
                                 class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                            <p>
-                              Manejamos un amplio stack tecnologico: SolidJS, VueJS, ReactJS, Flutter, NodeJS, .NET Core, TailwindCSS, etc.
+                            <p style="padding-left: 30px;">
+                              En AM Solutions tratamos de elegir las tecnologías más actuales y robustas del mercado pensando en la seguridad 
+                              y el performance del proyecto de cada cliente, teniendo en cuenta las necesidades de cada uno. 
+                              Podemos citar algunas como: NodeJS, .NET Core, SolidJS, VueJS, ReactJS, Flutter, etc.
                             </p>
                         </div>
                     </li>
@@ -26,8 +28,9 @@
                             <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                              Realizamos un relevamiento de los datos, de acuerdo a ello evaluamos la mejor tecnología para
-                              llevar a cabo el desarrollo, teniendo en cuenta la escalabilidad del proyecto en cuestión.
+                              Para realizar un presupuesto primeramente analizamos la lógica de negocios del proyecto, relevamos los datos correspondientes y
+                              de acuerdo a ello evaluamos la mejor tecnología para llevar a cabo el desarrollo y preparamos un presupuesto conveniente
+                              para ambas partes. 
                             </p>
                         </div>
                     </li>
@@ -38,9 +41,10 @@
                             <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                         <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                             <p>
-                              Planteamos al cliente una metodología de entregables por etapas.
-                              La primera etapa consiste en un MVP (Minimum Viable Product, o en castellano el Producto Mínimo Viable). Posteriormente avanzamos con las demás etapas.
-                            </p>
+                              
+                              Planteamos al cliente metodologías agiles (SCRUM) que consiste en entregables por etapas, 
+                              partiendo del desarrollo del MVP (Minimum Viable Product) hasta concluir el desarrollo.
+                              </p>
                         </div>
                     </li>
 
@@ -51,5 +55,4 @@
     </section>
 </template>
 <script setup lang="ts"></script>
-<style>
-</style>
+<style></style>

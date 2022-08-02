@@ -5,10 +5,10 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
-          <h1>¡Las mejores soluciones para tu Negocio!</h1>
+          <h1>¡Las mejores soluciones para tu negocio!</h1>
           <h2>Somos una empresa especializada en el diseño y desarrollo de software. Creamos soluciones personalizadas que se adaptan a las necesidades de cada cliente.</h2>
           <div class="d-flex justify-content-center justify-content-lg-start">
-            <a href="#about" class="btn-get-started scrollto" aria-label="Sobre nosotros">Leer más</a>
+            <a href="#about" class="btn-get-started scrollto" aria-label="Sobre nosotros">Más info ↓</a>
 <!--            <a href="" class="glightbox btn-watch-video" aria-label="Ver video">
               <i class="bi bi-play-circle"></i><span>Mirar video</span></a>-->
           </div>
